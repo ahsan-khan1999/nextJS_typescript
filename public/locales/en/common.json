@@ -1,0 +1,17 @@
+{
+    "email":"Email EN",
+    "password":"Password",
+    "validationMessages": {
+        "mixed": {
+          "required": "This field is required",
+          "oneOf": "Password must match "
+        },
+        "string": {
+          "email": "Please enter a valid email",
+          "min": "Please enter a valid value"
+        },
+        "array": {
+          "min": "At least 1 is required"
+        }
+      }
+}

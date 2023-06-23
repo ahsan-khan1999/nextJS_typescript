@@ -8,5 +8,6 @@ export const enum Address {
 export const enum Fields {
     email = "email",
     password = "password",
+    description = "description"
 
 }

@@ -1,8 +1,11 @@
 import { SubmitHandler } from "react-hook-form";
 import { ReactNode } from "react";
+import { NextRouter } from "next/router";
 export interface Inputs {
   email: string;
   password: string;
+  description: string;
+
 }
 
 export interface UseLoginFormProps {
@@ -17,13 +20,16 @@ export interface MyComponentProp {
 }
 
 export interface Address {
-  street:string;
-  city:string;
-  state:string
+  street: string;
+  city: string;
+  state: string
 }
 
-export interface Person{
-  name:string;
-  email:string;
-  address?:Address
+export interface Person {
+  name: string;
+  email: string;
+  address?: Address
 }
+
+export type QueryUpdate = (router: NextRouter, lang: string) => void;
+
