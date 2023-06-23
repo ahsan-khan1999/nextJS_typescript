@@ -3,7 +3,6 @@ import LoginForm from "@/components/LoginForm";
 import { useRouter } from "next/router";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { updateQuery } from "@/utils/update-query";
-import { locale } from '../../validation/loginSchema';
 import { Locale } from "@/types";
 
 export default function Home() {
