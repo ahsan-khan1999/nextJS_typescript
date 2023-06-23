@@ -1,4 +1,3 @@
-import { locale } from "@/validation/loginSchema";
 import useLoginForm from "../hooks/useLoginForm";
 import { UseLoginFormProps } from "@/types";
 import { useTranslation } from "next-i18next";
