@@ -33,3 +33,6 @@ export interface Person {
 
 export type QueryUpdate = (router: NextRouter, lang: string) => void;
 
+export interface Locale {
+  locale: string
+} 
